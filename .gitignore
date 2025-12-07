@@ -9,9 +9,10 @@ data/results/*
 !data/results/.gitkeep
 
 # Ignore specific folder types
-**/.ipynb_checkpoints/ 
+**/.ipynb_checkpoints/
 **/deprecated/
 **/wandb/
+**/__pycache__/
 
 # Ignore specific file types
 *.nc                      
